@@ -33,3 +33,12 @@ bool aMaiorQueB = a > b;
 
 // Exibindo o resultado
 Console.WriteLine($"A é maior que B: {aMaiorQueB}");
+// Definindo as strings str1 e str2
+string str1 = "Hello";
+string str2 = "World";
+
+// Verificando se as strings são iguais
+bool saoIguais = str1 == str2;
+
+// Exibindo o resultado
+Console.WriteLine($"As strings são iguais: {saoIguais}");
