@@ -42,3 +42,17 @@ bool saoIguais = str1 == str2;
 
 // Exibindo o resultado
 Console.WriteLine($"As strings são iguais: {saoIguais}");
+
+// Definindo as variáveis booleanas condicao1 e condicao2
+bool condicao1 = true;
+bool condicao2;
+// Definindo as variáveis num1, num2 e num3
+int num1 = 7;
+int num2 = 3;
+int num3 = 10;
+
+// Verificando se num1 é maior que num2 e se num3 é igual a num1 + num2
+bool resultado = num1 > num2 && num3 == num1 + num2;
+
+// Exibindo o resultado
+Console.WriteLine($"A expressão é verdadeira: {resultado}");
