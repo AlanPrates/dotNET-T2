@@ -29,6 +29,18 @@ while (c <= 100)
     c = a + b;
 }
 
+// Exercicio 3
+
+        int n = 8;
+
+        for (int i = 1; i <= n; i++)
+        {
+            for (int j = 1; j <= i; j++)
+            {
+                Console.Write(i * j + " ");
+            }
+            Console.WriteLine();
+        }
 
 //region String examples
 
