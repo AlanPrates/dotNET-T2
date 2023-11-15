@@ -230,3 +230,4 @@ class Task
         return $"Tarefa: {Title}\nDescrição: {Description}\nData de Vencimento: {DueDate}\nStatus: {(IsCompleted ? "Concluída" : "Pendente")}\n";
     }
 }
+
