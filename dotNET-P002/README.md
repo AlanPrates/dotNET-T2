@@ -7,7 +7,7 @@ Este projeto é um aplicativo simples de gerenciamento de tarefas em C#. Permite
 ## Autor
 
 - **Alan Prates dos Santos**
-
+- **ChatGPT Help**
 ## Como Usar
 
 1. Clone o repositório.
