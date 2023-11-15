@@ -1,4 +1,4 @@
-﻿//region  Foreach examples
+﻿﻿//region  Foreach examples
 string[] people = { "Ana", "Alan", "Alana", "Maria", "João", "José", "Pedro" };
 
 foreach (string person in people)
@@ -54,4 +54,3 @@ foreach (var item in names)
     Console.WriteLine(item);
 }
 
-#endregion
