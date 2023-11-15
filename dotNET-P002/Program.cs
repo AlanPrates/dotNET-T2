@@ -4,12 +4,15 @@ using System.Linq;
 
 class Program
 {
+    // Lista para armazenar tarefas
     static List<Task> tasks = new List<Task>();
 
+    // Método principal onde a execução do programa começa
     static void Main()
     {
         while (true)
         {
+            // Exibição das opções de menu
             Console.WriteLine("1. Criar Tarefa");
             Console.WriteLine("2. Listar Tarefas");
             Console.WriteLine("3. Marcar Tarefa como Concluída");
@@ -58,6 +61,7 @@ class Program
         }
     }
 
+    // Método para obter a escolha do usuário
     static int GetChoice()
     {
         Console.Write("Escolha uma opção: ");
@@ -74,23 +78,25 @@ class Program
         }
     }
 
- static void CreateTask()
-{
-    Console.Write("Título da Tarefa: ");
-    string title = Console.ReadLine();
+    // Método para criar uma nova tarefa
+    static void CreateTask()
+    {
+        Console.Write("Título da Tarefa: ");
+        string title = Console.ReadLine();
 
-    Console.Write("Descrição da Tarefa: ");
-    string description = Console.ReadLine();
+        Console.Write("Descrição da Tarefa: ");
+        string description = Console.ReadLine();
 
-    Console.Write("Data de Vencimento (YYYY-MM-DD): ");
-    DateTime dueDate = DateTime.Parse(Console.ReadLine() ?? throw new ArgumentNullException("s"));
+        Console.Write("Data de Vencimento (YYYY-MM-DD): ");
+        DateTime dueDate = DateTime.Parse(Console.ReadLine() ?? throw new ArgumentNullException("s"));
 
-    Task task = new Task(title ?? throw new ArgumentNullException("title"), description ?? throw new ArgumentNullException("description"), dueDate);
-    tasks.Add(task);
+        Task task = new Task(title ?? throw new ArgumentNullException("title"), description ?? throw new ArgumentNullException("description"), dueDate);
+        tasks.Add(task);
 
-    Console.WriteLine($"Tarefa '{title}' criada com sucesso! (Número: {tasks.Count})");
-}
+        Console.WriteLine($"Tarefa '{title}' criada com sucesso! (Número: {tasks.Count})");
+    }
 
+    // Método para listar todas as tarefas
     static void ListAllTasks()
     {
         if (tasks.Count == 0)
@@ -104,22 +110,25 @@ class Program
             Console.WriteLine(task);
         }
     }
-static void MarkTaskAsCompleted()
-{
-    Console.Write("Digite o número da tarefa a ser marcada como concluída: ");
-    int taskNumber = GetChoice();
 
-    if (taskNumber > 0 && taskNumber <= tasks.Count)
+    // Método para marcar uma tarefa como concluída
+    static void MarkTaskAsCompleted()
     {
-        tasks[taskNumber - 1].MarkAsCompleted();
-        Console.WriteLine($"Tarefa '{tasks[taskNumber - 1].Title}' marcada como concluída com sucesso!");
-    }
-    else
-    {
-        Console.WriteLine("Número de tarefa inválido.");
-    }
-}
+        Console.Write("Digite o número da tarefa a ser marcada como concluída: ");
+        int taskNumber = GetChoice();
 
+        if (taskNumber > 0 && taskNumber <= tasks.Count)
+        {
+            tasks[taskNumber - 1].MarkAsCompleted();
+            Console.WriteLine($"Tarefa '{tasks[taskNumber - 1].Title}' marcada como concluída com sucesso!");
+        }
+        else
+        {
+            Console.WriteLine("Número de tarefa inválido.");
+        }
+    }
+
+    // Método para listar tarefas pendentes
     static void ListPendingTasks()
     {
         var pendingTasks = tasks.FindAll(task => !task.IsCompleted);
@@ -135,6 +144,7 @@ static void MarkTaskAsCompleted()
         }
     }
 
+    // Método para listar tarefas concluídas
     static void ListCompletedTasks()
     {
         var completedTasks = tasks.FindAll(task => task.IsCompleted);
@@ -150,6 +160,7 @@ static void MarkTaskAsCompleted()
         }
     }
 
+    // Método para excluir uma tarefa
     static void DeleteTask()
     {
         Console.Write("Digite o número da tarefa a ser excluída: ");
@@ -166,6 +177,7 @@ static void MarkTaskAsCompleted()
         }
     }
 
+    // Método para pesquisar tarefas por palavra-chave
     static void SearchTasksByKeyword()
     {
         Console.Write("Digite uma palavra-chave para pesquisa: ");
@@ -184,6 +196,7 @@ static void MarkTaskAsCompleted()
         }
     }
 
+    // Método para exibir estatísticas
     static void DisplayStatistics()
     {
         int totalTasks = tasks.Count;
@@ -207,11 +220,13 @@ static void MarkTaskAsCompleted()
 
 class Task
 {
+    // Propriedades da tarefa
     public string Title { get; }
     public string Description { get; }
     public DateTime DueDate { get; }
     public bool IsCompleted { get; private set; }
 
+    // Construtor da classe Task
     public Task(string title, string description, DateTime dueDate)
     {
         Title = title;
@@ -220,11 +235,13 @@ class Task
         IsCompleted = false;
     }
 
+    // Método para marcar a tarefa como concluída
     public void MarkAsCompleted()
     {
         IsCompleted = true;
     }
 
+    // Sobrescreve o método ToString para exibir informações da tarefa
     public override string ToString()
     {
         return $"Tarefa: {Title}\nDescrição: {Description}\nData de Vencimento: {DueDate}\nStatus: {(IsCompleted ? "Concluída" : "Pendente")}\n";
