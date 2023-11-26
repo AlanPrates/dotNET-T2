@@ -1,3 +1,5 @@
+using System;
+
 namespace GestaoEstoque
 {
     public class Produto
