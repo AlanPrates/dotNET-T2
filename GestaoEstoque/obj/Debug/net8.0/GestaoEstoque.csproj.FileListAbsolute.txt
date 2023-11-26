@@ -1,0 +1,15 @@
+/Users/alanprates/dotNET-T2/GestaoEstoque/bin/Debug/net8.0/GestaoEstoque
+/Users/alanprates/dotNET-T2/GestaoEstoque/bin/Debug/net8.0/GestaoEstoque.deps.json
+/Users/alanprates/dotNET-T2/GestaoEstoque/bin/Debug/net8.0/GestaoEstoque.runtimeconfig.json
+/Users/alanprates/dotNET-T2/GestaoEstoque/bin/Debug/net8.0/GestaoEstoque.dll
+/Users/alanprates/dotNET-T2/GestaoEstoque/bin/Debug/net8.0/GestaoEstoque.pdb
+/Users/alanprates/dotNET-T2/GestaoEstoque/obj/Debug/net8.0/GestaoEstoque.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alanprates/dotNET-T2/GestaoEstoque/obj/Debug/net8.0/GestaoEstoque.AssemblyInfoInputs.cache
+/Users/alanprates/dotNET-T2/GestaoEstoque/obj/Debug/net8.0/GestaoEstoque.AssemblyInfo.cs
+/Users/alanprates/dotNET-T2/GestaoEstoque/obj/Debug/net8.0/GestaoEstoque.csproj.CoreCompileInputs.cache
+/Users/alanprates/dotNET-T2/GestaoEstoque/obj/Debug/net8.0/GestaoEstoque.sourcelink.json
+/Users/alanprates/dotNET-T2/GestaoEstoque/obj/Debug/net8.0/GestaoEstoque.dll
+/Users/alanprates/dotNET-T2/GestaoEstoque/obj/Debug/net8.0/refint/GestaoEstoque.dll
+/Users/alanprates/dotNET-T2/GestaoEstoque/obj/Debug/net8.0/GestaoEstoque.pdb
+/Users/alanprates/dotNET-T2/GestaoEstoque/obj/Debug/net8.0/GestaoEstoque.genruntimeconfig.cache
+/Users/alanprates/dotNET-T2/GestaoEstoque/obj/Debug/net8.0/ref/GestaoEstoque.dll
