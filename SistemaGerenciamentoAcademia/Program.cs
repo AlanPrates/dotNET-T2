@@ -46,14 +46,49 @@ public class Academia
         Clientes = new List<Cliente>();
     }
 
+    // Métodos para validações
+    private bool ValidarDataNascimento(DateTime dataNascimento)
+    {
+        // Adicione aqui a lógica de validação desejada para a data de nascimento
+        // Por exemplo, pode verificar se a data não está no futuro.
+        return dataNascimento <= DateTime.Now;
+    }
+
+    private bool ValidarCPF(string cpf)
+    {
+        // Adicione aqui a lógica de validação desejada para o CPF
+        // Por exemplo, pode verificar o formato do CPF.
+        return !string.IsNullOrEmpty(cpf) && cpf.Length == 11 && cpf.All(char.IsDigit);
+    }
+
+    // Métodos para adicionar treinador e cliente com validações
     public void AdicionarTreinador(Treinador treinador)
     {
-        Treinadores.Add(treinador);
+        if (ValidarDataNascimento(treinador.DataNascimento) && ValidarCPF(treinador.CPF))
+        {
+            Treinadores.Add(treinador);
+            Console.WriteLine("Treinador adicionado com sucesso!");
+        }
+        else
+        {
+            Console.WriteLine("Dados inválidos. Treinador não adicionado.");
+        }
     }
 
     public void AdicionarCliente(Cliente cliente)
     {
-        Clientes.Add(cliente);
+        if (ValidarDataNascimento(cliente.DataNascimento) && ValidarCPF(cliente.CPF) && cliente.Altura > 0 && cliente.Peso > 0)
+        {
+            Clientes.Add(cliente);
+            Console.WriteLine("Cliente adicionado com sucesso!");
+
+            // Agora, após atribuir os valores de altura e peso, chamamos o método ExibirIMC
+            cliente.ExibirIMC();
+        }
+        else
+        {
+            Console.WriteLine("Dados inválidos. Cliente não adicionado.");
+        }
     }
 
     public List<Treinador> TreinadoresEntreIdades(int idadeMinima, int idadeMaxima)
@@ -205,7 +240,6 @@ class Program
         treinador.CREF = Console.ReadLine();
 
         academia.AdicionarTreinador(treinador);
-        Console.WriteLine("Treinador adicionado com sucesso!");
     }
 
     static void AdicionarCliente()
@@ -260,10 +294,6 @@ class Program
         }
 
         academia.AdicionarCliente(cliente);
-        Console.WriteLine("Cliente adicionado com sucesso!");
-
-        // Agora, após atribuir os valores de altura e peso, chamamos o método ExibirIMC
-        cliente.ExibirIMC();
     }
 
     static void RelatorioTreinadoresEntreIdades()
