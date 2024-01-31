@@ -1,0 +1,17 @@
+/Users/alanprates/Advogacia/TechAdvocacia.Data/bin/Debug/net7.0/TechAdvocacia.Data.deps.json
+/Users/alanprates/Advogacia/TechAdvocacia.Data/bin/Debug/net7.0/TechAdvocacia.Data.runtimeconfig.json
+/Users/alanprates/Advogacia/TechAdvocacia.Data/bin/Debug/net7.0/TechAdvocacia.Data.dll
+/Users/alanprates/Advogacia/TechAdvocacia.Data/bin/Debug/net7.0/TechAdvocacia.Data.pdb
+/Users/alanprates/Advogacia/TechAdvocacia.Data/bin/Debug/net7.0/TechAdvocacia.Core.dll
+/Users/alanprates/Advogacia/TechAdvocacia.Data/bin/Debug/net7.0/TechAdvocacia.Core.pdb
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/TechAdvocacia.Data.csproj.AssemblyReference.cache
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/TechAdvocacia.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/TechAdvocacia.Data.AssemblyInfoInputs.cache
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/TechAdvocacia.Data.AssemblyInfo.cs
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/TechAdvocacia.Data.csproj.CoreCompileInputs.cache
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/TechAdvocacia.Data.csproj.CopyComplete
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/TechAdvocacia.Data.dll
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/refint/TechAdvocacia.Data.dll
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/TechAdvocacia.Data.pdb
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/TechAdvocacia.Data.genruntimeconfig.cache
+/Users/alanprates/Advogacia/TechAdvocacia.Data/obj/Debug/net7.0/ref/TechAdvocacia.Data.dll
