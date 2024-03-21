@@ -1,0 +1,14 @@
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\bin\Debug\net7.0\Exercicio-4.exe
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\bin\Debug\net7.0\Exercicio-4.deps.json
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\bin\Debug\net7.0\Exercicio-4.runtimeconfig.json
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\bin\Debug\net7.0\Exercicio-4.dll
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\bin\Debug\net7.0\Exercicio-4.pdb
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\obj\Debug\net7.0\Exercicio-4.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\obj\Debug\net7.0\Exercicio-4.AssemblyInfoInputs.cache
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\obj\Debug\net7.0\Exercicio-4.AssemblyInfo.cs
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\obj\Debug\net7.0\Exercicio-4.csproj.CoreCompileInputs.cache
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\obj\Debug\net7.0\Exercicio-4.dll
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\obj\Debug\net7.0\refint\Exercicio-4.dll
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\obj\Debug\net7.0\Exercicio-4.pdb
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\obj\Debug\net7.0\Exercicio-4.genruntimeconfig.cache
+C:\dotNET-T2\Exercício-Aula-03\Exercício-Aula-03\Exercicio-4\Exercicio-4\obj\Debug\net7.0\ref\Exercicio-4.dll
